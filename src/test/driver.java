@@ -7,7 +7,7 @@ import org.testng.annotations.*;
 public class driver {
     protected static WebDriver driver;
 
-    protected static String setPropertyPathChrome = "C:/Users/genoc/Documents/Code/mapp/drivers/chromedriver.exe";
+    protected static String setPropertyPathChrome = "local_chromedriver_path";
 
     @BeforeClass
     public void setUp() {
